@@ -1,0 +1,13 @@
+package com.jwd.test.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.jwd.test.model.Linija;
+
+@Repository
+public interface LinijaRepository extends JpaRepository<Linija, Long> {
+
+	List<Linija> search()
+	
+}

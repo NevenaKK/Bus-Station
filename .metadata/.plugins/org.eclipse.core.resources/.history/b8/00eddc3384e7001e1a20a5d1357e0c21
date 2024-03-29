@@ -1,0 +1,45 @@
+package com.jwd.test.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.stereotype.Service;
+
+import com.jwd.test.model.Linija;
+import com.jwd.test.service.LinijaService;
+
+@Service
+public class JpaLinijaService  implements LinijaService{
+
+	@Autowired
+	Linija
+	
+	@Override
+	public Page<Linija> findAll(int pageNo) {
+		return 
+	}
+
+	@Override
+	public Linija findOne(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Linija save(Linija linija) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Linija update(Linija linija) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Linija delete(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

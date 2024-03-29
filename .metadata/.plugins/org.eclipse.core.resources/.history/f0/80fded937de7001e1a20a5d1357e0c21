@@ -1,0 +1,5 @@
+package com.jwd.test.repository;
+
+public interface PrevoznikRepository {
+
+}

@@ -1,0 +1,9 @@
+package com.jwd.test.service;
+
+import com.jwd.test.model.Rezervacija;
+
+public interface RezervacijaService {
+	
+	Rezervacija save(Rezervacija rezervacija);
+
+}

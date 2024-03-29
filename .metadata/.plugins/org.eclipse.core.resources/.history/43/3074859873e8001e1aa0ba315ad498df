@@ -1,0 +1,5 @@
+package com.jwd.test.model;
+
+public class Rezervacija {
+
+}

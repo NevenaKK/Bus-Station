@@ -1,0 +1,13 @@
+package com.jwd.test.service;
+
+import java.util.List;
+
+import com.jwd.test.model.Prevoznik;
+
+public interface PrevoznikService {
+
+	List<Prevoznik> findAll();
+	Prevoznik save(Prevoznik prevoznik);
+	Prevoznik findOne(Long id);
+	
+}
